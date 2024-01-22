@@ -1,0 +1,14 @@
+@layer components {
+  .btn-solid {
+    @apply px-3;
+    @apply rounded-md bg-gray-400 border-purple-600 hover:bg-gray-300 focus:bg-red-600;
+  }
+  .btn-primary {
+    @apply bg-purple-400;
+    @apply rounded-md bg-blue-400 border-green-600 hover:bg-yellow-300 focus:bg-green-600;
+  }
+  .btn-danger {
+    @apply bg-red-400;
+    @apply rounded-md bg-purple-400 border-red-600 hover:bg-green-300 focus:bg-yellow-600;
+  }
+}
